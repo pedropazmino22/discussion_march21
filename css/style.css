@@ -1,0 +1,94 @@
+  /* Create an accessible color palette using var()function */
+  /* https://www.w3schools.com/css/css3_variables.asp */
+
+  body {
+    background-color: rgb(198, 214, 229);
+    font-family: Blinker, Arial, Helvetica;
+  }
+
+  form {
+    /* display: grid;
+    grid-template-columns: 50% 50%; */
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    width: 50%;
+    margin: 20px auto;
+    padding: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: rgb(14, 34, 54);
+    border: 1px solid rgb(143, 178, 211);
+    background: rgb(241, 243, 245);
+  }
+
+  label {
+    font-weight: bold;
+    margin-bottom: 4px;
+    display: inline-block;
+  }
+
+  .radio {
+    /* display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background: #575294; */
+    color: rgb(14, 34, 54);
+  }
+
+  input[type="radio"] {
+    transform: scale(1.5); /* Adjust the scale factor as needed */
+  }
+
+  label, input[type="radio"] {
+    display: inline-block;
+    vertical-align: middle; /* Aligns elements vertically in the middle */
+  }
+
+
+
+  #name {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    background: white;
+    color: rgb(14, 34, 54);
+  }
+
+  #message {
+    width: 100%;
+    padding: 10px;
+    resize: vertical;
+  }
+
+  input,
+  textarea {
+    font-family: Blinker, Arial, Helvetica;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    font-family: Blinker, Arial, Helvetica;
+    background-color: rgb(9, 91, 222);
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: rgb(28, 109, 241);
+  }
+
+  button {
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+    text-decoration: underline;
+    color: rgb(28, 109, 241);
+  }
